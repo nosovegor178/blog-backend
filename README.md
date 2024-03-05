@@ -27,9 +27,6 @@
 - `MEDIA_URL` — по умолчанию это `'/media/'`. [Что такое MEDIA_URL](https://docs.djangoproject.com/en/3.0/ref/settings/#std:setting-MEDIA_URL).
 - `MEDIA_ROOT` — по умолчанию это `'media'`. [Что такое MEDIA_ROOT](https://docs.djangoproject.com/en/3.0/ref/settings/#std:setting-MEDIA_ROOT). 
 
-
-## Страницы сайта
-
 ### Главная
 
 Страница называется `index` и находится по адресу [http://127.0.0.1:8000](http://127.0.0.1:8000).
