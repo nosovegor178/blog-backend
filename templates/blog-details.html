@@ -1,15 +1,9 @@
-<!DOCTYPE html>
+{% extends 'base.html' %}
 {% load static %}
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{post.title}}</title>
-    <link rel="icon" href="{% static 'img/favicon.png' %}" type="image/png">
-
-    <link rel="stylesheet" href="{% static 'styles.min.css' %}">
-  </head>
+{% block content %}
+{% block title %}
+      <title>{{post.title}} - blog details</title>
+{% endblock %}
   <body>
     <!--================Header Menu Area =================-->
     <header class="header_area">
@@ -220,4 +214,4 @@
 
     <script src="{% static 'scripts.js' %}"></script>
   </body>
-</html>
+{% endblock %}
